@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" type="text/css" charset="utf-8">
+  <script src="js/jquery-1.12.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>To do</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>To Do List</h1>
+        <form id="toDoList">
+          <div class="form-group">
+            <label for="list1">Things to do:</label>
+            <input id="list1" type="text" name="name" value="">
+          </div>
+          <div class="form-group">
+            <label for="list2">Where to do it:</label>
+            <input id="list2" type="text" name="name" value="">
+          </div>
+          <button class="btn btn-success" type="submit">SUBMIT MEH!</button>
+        </form>      
+        <ul id="display">
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div id="show-place">
+          <h2></h2>
+          <p>Do: <span class="doThis"></span></p>
+          <p>Where: <span class="doWhere"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

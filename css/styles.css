@@ -1,0 +1,23 @@
+#show-place {
+  display: none;
+}
+
+.listItem {
+  color: blue;
+
+}
+.listItem:hover{
+  cursor: pointer;
+    text-decoration: underline;
+}
+.hideListItem {
+  display: none;
+}
+
+.closer:hover {
+  text-decoration: underline;
+}
+
+.closer {
+  color:red;
+}
