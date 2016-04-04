@@ -1,20 +1,37 @@
 #show-place {
   display: none;
+  background-color: grey;
+  margin-top: 145px;
 }
 
+body {
+  background-image: url('../img/checklist.jpg');
+  background-size: auto;
+  position: fixed;
+}
+ul {
+  display: none;
+  columns:50px;
+  margin-top: 30px;
+  background-color: #f1f1d4;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: grey;
+}
 .listItem {
-  color: blue;
+  color: black;
 
 }
 .listItem:hover{
   cursor: pointer;
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .hideListItem {
   display: none;
 }
 
 .closer:hover {
+  cursor: pointer;
   text-decoration: underline;
 }
 
